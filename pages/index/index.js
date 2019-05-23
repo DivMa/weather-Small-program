@@ -23,14 +23,14 @@ Page({
     theWeather: {
       weatherIcon: "/images/w/w01",
       date: 22,
-      currentCity: "南京",
+      currentCity: "北京",
       weatherDesc: "多云",
       pm25: 67,
       temperature: "24 ~ 14",
       wind: " 无风 "
     },
     cityMenus: [],
-    today : "2017-05-01",
+    today : "2019-05-23",
     wall:"/images/clearday"
   },
   

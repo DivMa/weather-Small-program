@@ -227,7 +227,7 @@ page{
   padding: 0 10rpx;
   background-color: rgba(120,120,120,0.2);
   box-sizing: border-box;
-  border-radius: 6rpx;
+  border-radius: 26rpx;
 }
 .advice-box{
   position: relative;
@@ -259,17 +259,17 @@ page{
 }
 .advicetext{
   display: block;
-  text-align: left;
+  text-align: center;
   color: white;
   width: 84%;
   min-height: 86rpx;
   float: left;
   font-size:28rpx;
-  line-height: 48rpx;
+  line-height: 43px;
   padding: 0 10rpx;
   background-color: rgba(120,120,120,0.2);
   box-sizing: border-box;
-  border-radius: 10rpx 0 0 10rpx;
+  border-radius: 26rpx;
 }
 .advicetextxl{
   display: block;

@@ -52,7 +52,7 @@
       <view style="clear:both"></view>
     </view>
     <view class="advice-box">
-      <text class="paneltitle">建议</text>
+      <text class="paneltitle">生活建议</text>
       <view class="adviceview" wx:for="{{theWeather.fullData.index}}" wx:key="unique">
         <image class="adviceicon" id="{{index}}" wx:if="{{item.title=='穿衣'}}" src="../../images/cloth.png"></image>
         <image class="adviceicon" id="{{index}}" wx:elif="{{item.title=='洗车'}}" src="../../images/car.png"></image>
