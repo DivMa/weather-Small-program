@@ -51,19 +51,6 @@
       <image src="../../images/bad.png" wx:elif="{{theWeather.pm25 > 150}}"></image>
       <view style="clear:both"></view>
     </view>
-    <view class="advice-box">
-      <text class="paneltitle">生活建议</text>
-      <view class="adviceview" wx:for="{{theWeather.fullData.index}}" wx:key="unique">
-        <image class="adviceicon" id="{{index}}" wx:if="{{item.title=='穿衣'}}" src="../../images/cloth.png"></image>
-        <image class="adviceicon" id="{{index}}" wx:elif="{{item.title=='洗车'}}" src="../../images/car.png"></image>
-        <image class="adviceicon" id="{{index}}" wx:elif="{{item.title=='感冒'}}" src="../../images/ill.png"></image>
-        <image class="adviceicon" id="{{index}}" wx:elif="{{item.title=='运动'}}" src="../../images/sport.png"></image>
-        <image class="adviceicon" id="{{index}}" wx:elif="{{item.title=='紫外线强度'}}" src="../../images/ultra.png"></image>
-        <text class="advicetextxl" wx:if="{{item.title=='紫外线强度' && item.zs.length > 50}}">{{item.zs}}</text>
-        <text class="advicetext" wx:else>{{item.zs}}</text>
-      </view>
-      <view style="clear:both"></view>
-    </view>
     <view class="holiday-box" hidden="true">
       <view style="clear:both"></view>
     </view>
