@@ -229,4 +229,87 @@ page{
   box-sizing: border-box;
   border-radius: 26rpx;
 }
+.advice-box{
+	  position: relative;
+	  width:100%;
+	  padding-left: 10rpx;
+	  padding-bottom: 10rpx;
+	  margin-top:16rpx;
+	  background-color:rgba(0,0,0,0.3);
+	  box-sizing: border-box;
+	  clear: both
+	}
+	.adviceview{
+	  display: block;
+	  width: 48%;
+	  min-height: 96rpx;
+	  float: left;
+	  margin:6rpx 6rpx;
+	  box-sizing: border-box;
+	}
+	.adviceicon{
+	  display: block;
+	  width: 16%;
+	  height: 86rpx;
+	  float: left;
+	  padding:16rpx 8rpx;
+	  background-color: rgba(0,0,0,0.5);
+	  box-sizing: border-box;
+	  border-radius: 10rpx 0 0 10rpx;
+	}
+	.advicetext{
+	  display: block;
+	  text-align: center;
+	  color: white;
+	  width: 84%;
+	  min-height: 86rpx;
+	  float: left;
+	  font-size:28rpx;
+	  line-height: 43px;
+	  padding: 0 10rpx;
+	  background-color: rgba(120,120,120,0.2);
+	  box-sizing: border-box;
+	  border-radius: 26rpx;
+	}
+	.advicetextxl{
+	  display: block;
+	  text-align: left;
+	  color: white;
+	  width: 187%;
+	  margin-left:-400rpx;
+	  min-height: 96rpx;
+	  float: left;
+	  font-size:28rpx;
+	  line-height: 48rpx;
+	  padding: 0 10rpx;
+	  background-color: rgba(120,120,120,0.2);
+	  box-sizing: border-box;
+	  border-radius: 10rpx 0 0 10rpx;
+	}
+	.holiday-box{
+	  position: relative;
+	  width:100%;
+	  padding-right: 16rpx;
+	  padding-left: 16rpx;
+	  margin-top:16rpx;
+	  padding-bottom: 10rpx;
+	  background-color:rgba(0,0,0,0.3);
+	  box-sizing: border-box;
+	  clear: both
+	}
+	.holidaytext{
+	  display: block;
+	  font-family: 'UKIJ Esliye';
+	  text-align: left;
+	  color: white;
+	  width: 100%;
+	  float: left;
+	  font-size:28rpx;
+	  line-height: 72rpx;
+	  margin:4rpx 0;
+	  padding: 0 10rpx;
+	  background-color: rgba(120,120,120,0.2);
+	  box-sizing: border-box;
+	  border-radius: 6rpx;
+	} 
 
